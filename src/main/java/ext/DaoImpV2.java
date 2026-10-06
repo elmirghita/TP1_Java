@@ -1,6 +1,6 @@
 package ext;
 
-import Dao.IDao;
+import dao.IDao;
 
 public class DaoImpV2 implements IDao {
 

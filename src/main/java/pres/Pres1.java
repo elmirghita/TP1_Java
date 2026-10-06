@@ -1,7 +1,6 @@
-package Pres;
+package pres;
 
-import Dao.DaoImp;
-import Metier.MetierIml;
+import metier.MetierIml;
 import ext.DaoImpV2;
 
 public class Pres1 {

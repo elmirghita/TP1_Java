@@ -1,6 +1,6 @@
-package Metier;
+package metier;
 
-import Dao.IDao;
+import dao.IDao;
 
 public class MetierIml implements IMetier{
     private IDao dao;

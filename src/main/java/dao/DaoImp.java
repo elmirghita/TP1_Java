@@ -1,4 +1,4 @@
-package Dao;
+package dao;
 
 public class DaoImp implements IDao {
     @Override
