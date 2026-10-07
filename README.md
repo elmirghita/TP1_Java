@@ -84,18 +84,6 @@ Spring parcourt les packages indiqués, détecte les classes annotées et effect
 
 ---
 
-## Résultats d'exécution
-
-<!-- Ajouter ici des captures d'écran de l'exécution de chaque version -->
-
-| Version | Résultat |
-|---|---|
-| Instanciation statique | _capture_ |
-| Instanciation dynamique | _capture_ |
-| Spring XML | _capture_ |
-| Spring annotations | _capture_ |
-
----
 
 ## Conclusion
 
