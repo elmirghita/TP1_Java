@@ -1,11 +1,17 @@
 package metier;
 
 import dao.IDao;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierIml implements IMetier{
+    //@Autowired
+    @Qualifier("d")
     private IDao dao;
 
-    public MetierIml(IDao dao) {
+    public MetierIml(@Qualifier("d") IDao dao) {
         this.dao = dao;
     }
 
